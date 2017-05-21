@@ -10,6 +10,7 @@ html {
 body {
   padding: 0;
   margin: 0;
+  font-size: 16px;
 }
 
 h1 {
@@ -24,14 +25,14 @@ ul {
 h2 {
   font-family: 'VT323', monospace;
   text-align: center;
-  font-size: 2.1em;
+  font-size: 2.0em;
   color: #FEFBF7;
 }
 
 h3 {
   font-family: 'VT323', monospace;
   text-align: center;
-  font-size: 1.7em;
+  font-size: 1.6em;
   color: #FEFBF7;
 }
 
@@ -101,12 +102,12 @@ nav a:hover, nav a:active {
   color: white;
 }
 
-li:hover {
+nav li:hover {
   background-color: rgb(189, 189, 189);
 }
 
 
-/** Body **/
+/** Body Classes**/
 
 .bg-color {
   padding: 50px;
@@ -135,24 +136,11 @@ li:hover {
 }
 
 
-/**Github section**/
-
-.github {
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.github img {
-  height: 100px;
-}
-
-
 /**portfolio**/
 
 #portfolio {
-  margin-bottom: 55px;
+  margin-top: 6%;
+  margin-bottom: 12%;
 }
 
 .portfolio {
@@ -184,6 +172,75 @@ li:hover {
 }
 
 
+/**Github section**/
+
+.github {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.github img {
+  height: 100px;
+}
+
+
+/**Skills**/
+
+#skills {
+  margin-top: 6%;
+  margin-bottom: 12%;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.skills div {
+  width: 30%;
+  border-radius: 5px;
+  border-color: #FEFBF7;
+  border-style: solid;
+  text-align: center;
+  color: #FEFBF7;
+}
+
+.skills ul {
+  font-size: 1.2em;
+  list-style-type: none;
+  line-height: 1.6em;
+}
+
+.certs img {
+  display: block;
+  width: 60%;
+  margin: 10% auto;
+}
+
+.experience ul {
+  margin-left: 10%;
+  text-align: left;
+  font-size: 1.2em;
+  list-style-type: none;
+  line-height: 2.em;
+}
+
+.skills-text {
+  margin-top: 6%;
+  padding: 2%;
+  font-size: 16px;
+  color: #FEFBF7;
+  line-height: 2;
+  text-indent: 2em;
+}
+
+
 /**Contact**/
 
 .contact {
@@ -196,7 +253,7 @@ li:hover {
 }
 
 #contact {
-  margin-top: 10%;
+  margin-top: 6%;
   margin-bottom: 12%;
 }
 
