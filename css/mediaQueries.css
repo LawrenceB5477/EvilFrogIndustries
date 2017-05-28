@@ -1,4 +1,6 @@
 /*TODO make queries progressive*/
+
+
 /*Media Queries */
 
 
@@ -25,13 +27,11 @@
   .heading {
     width: 90%;
   }
-
   /*Divs*/
   .bg-color {
-    padding:0;
+    padding: 0;
     padding-top: 20px;
   }
-
   /*Remove text indentation*/
   .about {
     text-indent: 0;
@@ -39,13 +39,12 @@
   .skills-text {
     text-indent: 0;
   }
-
   /*Make portofolio section verticle */
   .portfolio {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin:auto;
+    margin: auto;
   }
   .content-box {
     width: 100%;
@@ -56,47 +55,42 @@
     display: block;
     margin: auto;
   }
-
   /*Make Skills section verticle*/
   .skills {
     flex-direction: column;
     margin: auto;
   }
-
   .skills div {
     width: 100%;
     margin-bottom: 20px;
   }
-
   .skills div:last-of-type {
     margin-bottom: 0;
   }
-
   .certs img {
     width: 40%;
   }
-
   .experience ul {
     margin-left: 0;
     text-align: center;
   }
-
   /*Contact Section verticel*/
   .contact {
     flex-direction: column;
     margin: auto;
   }
-
   .social-media {
     width: 100%;
     margin-bottom: 20px;
   }
-
 }
 
 
 /* Larger than phablet*/
+
+
 /*TODO figure out how to make the whole nav clickable*/
+
 @media screen and (min-width: 400px) and (max-width: 550px) {
   /*Fix nav and logo*/
   nav {
@@ -118,13 +112,11 @@
   .heading {
     width: 90%;
   }
-
   /*Divs*/
   .bg-color {
-    padding:0;
+    padding: 0;
     padding-top: 20px;
   }
-
   /*Remove text indentation*/
   .about {
     text-indent: 0;
@@ -137,7 +129,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin:auto;
+    margin: auto;
   }
   .content-box {
     width: 100%;
@@ -148,37 +140,30 @@
     display: block;
     margin: auto;
   }
-
   /*Make Skills section verticle*/
   .skills {
     flex-direction: column;
     margin: auto;
   }
-
   .skills div {
     width: 100%;
     margin-bottom: 20px;
   }
-
   .skills div:last-of-type {
     margin-bottom: 0;
   }
-
   .certs img {
     width: 40%;
   }
-
   .experience ul {
     margin-left: 0;
     text-align: center;
   }
-
   /*Contact Section verticel*/
   .contact {
     flex-direction: column;
     margin: auto;
   }
-
   .social-media {
     width: 100%;
     margin-bottom: 20px;
@@ -196,13 +181,12 @@
   .heading img {
     height: 100px;
   }
-
   /*Make portofolio section verticle */
   .portfolio {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin:auto;
+    margin: auto;
   }
   .content-box {
     width: 100%;
@@ -213,42 +197,34 @@
     display: block;
     margin: auto;
   }
-
   /*Make Skills section verticle*/
   .skills {
     flex-direction: column;
     margin: auto;
   }
-
   .skills div {
     width: 100%;
     margin-bottom: 20px;
   }
-
   .skills div:last-of-type {
     margin-bottom: 0;
   }
-
   .certs img {
     width: 40%;
   }
-
   .experience ul {
     text-align: center;
     margin: 0;
   }
-
   /*Contact Section verticel*/
   .contact {
     flex-direction: column;
     margin: auto;
   }
-
   .social-media {
     width: 100%;
     margin-bottom: 20px;
   }
-
 }
 
 @media screen and (min-width: 750px) and (max-width: 1100px) {
@@ -258,20 +234,16 @@
     align-items: center;
     margin: auto;
   }
-
   .skills div {
     width: 80%;
     margin-bottom: 20px;
   }
-
   .skills div:last-of-type {
     margin-bottom: 0;
   }
-
   .certs img {
     width: 30%;
   }
-
   .experience ul {
     text-align: center;
     margin: 0;

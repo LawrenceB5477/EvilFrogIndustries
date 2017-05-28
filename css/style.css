@@ -44,8 +44,10 @@ h3 {
 }
 
 a:link, a:visited {
-  color:#FEFBF7
+  color: #FEFBF7
 }
+
+
 /*Logo and brackets*/
 
 .heading {
@@ -338,13 +340,12 @@ nav li:hover {
   .heading img {
     height: 100px;
   }
-
   /*Make portofolio section verticle */
   .portfolio {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin:auto;
+    margin: auto;
   }
   .content-box {
     width: 100%;
@@ -355,31 +356,25 @@ nav li:hover {
     display: block;
     margin: auto;
   }
-
   /*Make Skills section verticle*/
   .skills {
     flex-direction: column;
     margin: auto;
   }
-
   .skills div {
     width: 100%;
     margin-bottom: 20px;
   }
-
   .skills div:last-of-type {
     margin-bottom: 0;
   }
-
   .certs img {
     width: 40%;
   }
-
   .experience ul {
     margin-left: 0;
     text-align: center;
   }
-
 }
 
 
